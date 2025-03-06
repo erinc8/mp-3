@@ -7,6 +7,7 @@ const StyledMain = styled.main`
     flex: 1;
     margin: auto;
     background-color: whitesmoke;
+    height: 100vh;
 `
 
 const StyledP = styled.p`
