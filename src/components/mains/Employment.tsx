@@ -4,7 +4,7 @@ const StyledMain = styled.main`
     flex: 1;
     margin: auto;
     background-color: whitesmoke;
-    height: 100%;
+    height: 100vh;
 `
 
 const StyledH2 = styled.h2`
@@ -43,7 +43,7 @@ export default function Employment() {
             <StyledH2>Employment Experience</StyledH2>
             <StyledP><u>Questrom School of Business:</u><em> Finance Research Assistant, </em><br/><em>April 2024 - January
                 2025</em></StyledP>
-            <br/>
+
             <StyledUl>
                 <StyledLi>Generated summary statistics of sample used in manager decision analysis to evaluate quality of data
                     used

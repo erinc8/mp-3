@@ -11,7 +11,7 @@ const StyledP = styled.p`
 const StyledHome = styled.div`
     margin: 0;
     background-color: whitesmoke;
-    height: 100%;
+    height: 100vh;
 `
 
 const StyledImage = styled.img`

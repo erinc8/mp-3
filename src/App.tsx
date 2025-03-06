@@ -15,8 +15,8 @@ import {Routes, Route, createBrowserRouter, RouterProvider} from "react-router-d
 const AppContainer = styled.div`
     display: flex;
     min-height: 100vh;
-    margin-left:5%;
-    margin-right:5%;
+    margin-left:15%;
+    margin-right:15%;
     
 `
 
