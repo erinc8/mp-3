@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 const StyledMain = styled.main`
     flex: 1;
-    width: 100%;
+    width: 90vw;
     background-color: whitesmoke;
-    height: 90vh;
+    height: 100vh;
+    
 `
 
 const StyledH2 = styled.h2`

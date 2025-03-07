@@ -6,6 +6,7 @@ const StyledP = styled.p`
     padding: 5%;
     font: calc(1vw + 1px) "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: black;
+  
     
     @media (max-width: 750px) {
         font-size: calc(1vw + 1vw);
@@ -15,10 +16,12 @@ const StyledP = styled.p`
 
 const StyledHome = styled.div`
     flex: 1;
-    
-    
+    width: 90vw;
     background-color: whitesmoke;
     height: 100vh;
+    
+    
+   
     
     @media (max-width: 750px) {
         

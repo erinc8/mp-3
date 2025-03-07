@@ -2,10 +2,9 @@ import styled from "styled-components";
 
 const StyledMain = styled.main`
     flex: 1;
-    margin: auto;
+    width: 90vw;
     background-color: whitesmoke;
     height: 100vh;
-    
     @media (max-width: 750px) {
         width: 90vw;
     }

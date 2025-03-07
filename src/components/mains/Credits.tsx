@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
 const StyledMain = styled.main`
-    margin: auto;
+    flex: 1;
+    width: 90vw;
     background-color: whitesmoke;
-    padding: 5%;
     height: 100vh;
-    width: 100%;
     
     @media (max-width: 750px) {
         

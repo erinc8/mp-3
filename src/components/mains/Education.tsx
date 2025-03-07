@@ -5,10 +5,9 @@ import DavisHighPhoto from "/Davis_Senior_High_School_seal.png";
 
 const StyledMain = styled.main`
     flex: 1;
-    margin: auto;
+    width: 90vw;
     background-color: whitesmoke;
     height: 100vh;
-    overflow-x: hidden;
     
     @media (max-width: 750px) {
         
