@@ -4,11 +4,11 @@ import resumePhoto from "/1654646461330.jpg";
 const StyledP = styled.p`
     margin: auto;
     padding: 5%;
-    font: calc(0.9vw + 1px) "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: calc(1vw + 1px) "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: black;
     
     @media (max-width: 750px) {
-
+        font-size: calc(1vw + 1vw);
         width:90vw;
     }
 `

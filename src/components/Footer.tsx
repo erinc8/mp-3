@@ -4,8 +4,9 @@ import {Link} from "react-router-dom";
 
 const ParentContainer = styled.div`
     padding: 0;
-    width: 100vw;
-    margin: 0;
+    margin-right: 15%;
+    margin-left:15%;
+   
     background-color: black;
     box-sizing: border-box;
     

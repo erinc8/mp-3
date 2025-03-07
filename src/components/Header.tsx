@@ -2,15 +2,18 @@ import styled from 'styled-components';
 
 const ParentContainer = styled.div`
     padding: 0;
-    width: 100%;
-    margin: 0;
+    margin-right: 15%;
+    margin-left:15%;
+    
     background-color: black;
     box-sizing: border-box;
     overflow-x: hidden;
     
     @media (max-width: 750px) {
-        overflow: hidden;
         width: 100vw;
+        text-align: center;
+        margin: 0;
+        overflow: hidden;
     }
 `
 
