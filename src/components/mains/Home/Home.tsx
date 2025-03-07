@@ -4,14 +4,27 @@ import resumePhoto from "/1654646461330.jpg";
 const StyledP = styled.p`
     margin: auto;
     padding: 5%;
-    font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: calc(0.9vw + 1px) "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: black;
+    
+    @media (max-width: 750px) {
+
+        width:90vw;
+    }
 `
 
 const StyledHome = styled.div`
-    margin: 0;
+    flex: 1;
+    
+    
     background-color: whitesmoke;
     height: 100vh;
+    
+    @media (max-width: 750px) {
+        
+        width:100vw;
+    }
+    
 `
 
 const StyledImage = styled.img`
@@ -39,6 +52,7 @@ export default function home() {
                        I enjoy a variety of artistic and athletic hobbies, including cello, guitar, photography, and running.</StyledP>
                    <StyledP>Welcome to my website, here you will find my <u>Educational</u> and my <u> Employment</u> history;
                        as well as other information that might be of interest to you.</StyledP>
+
        </StyledHome>
                    );
                    };

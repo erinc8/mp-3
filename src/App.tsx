@@ -14,10 +14,19 @@ import {Routes, Route, createBrowserRouter, RouterProvider} from "react-router-d
 
 const AppContainer = styled.div`
     display: flex;
-    min-height: 100vh;
+    background-color: whitesmoke;
     margin-left:15%;
     margin-right:15%;
+    min-height: 100vh;
     
+    
+    @media (max-width: 750px) {
+        display:flex;
+        flex-direction:column;
+        margin: auto;
+        height: 100%;
+        width:100%;
+    }
 `
 
 function Root() {

@@ -8,7 +8,14 @@ const ParentContainer = styled.div`
     margin: 0;
     background-color: black;
     box-sizing: border-box;
-    overflow-x: hidden;
+    
+
+    @media (max-width: 750px) {
+        width: 100vw;
+        text-align: center;
+        margin: 0;
+        overflow: hidden;
+    }
 `
 const StyledFooter = styled.footer`
     background: black;

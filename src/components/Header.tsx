@@ -6,7 +6,12 @@ const ParentContainer = styled.div`
     margin: 0;
     background-color: black;
     box-sizing: border-box;
-    //overflow-x: hidden;
+    overflow-x: hidden;
+    
+    @media (max-width: 750px) {
+        overflow: hidden;
+        width: 100vw;
+    }
 `
 
 const StyledHeader = styled.header`
@@ -14,14 +19,24 @@ const StyledHeader = styled.header`
     background: black;
     color: white;
     padding: 20px;
-    width: 100vw;
+    width: 100%;
     margin: 0;
     box-sizing: border-box;
+    
+    @media (max-width: 750px) {
+        width: 100vw;
+        text-align: center;
+        margin: auto 0;
+    }
 `
 
 const StyledP=styled.p`
     padding-left: 5%;
     font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    @media (max-width: 750px) {
+        text-align: center;
+    }
 `
 const StyledH1 = styled.h1`
     color: white;

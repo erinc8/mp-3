@@ -6,6 +6,11 @@ const StyledMain = styled.main`
     padding: 5%;
     height: 100vh;
     width: 100%;
+    
+    @media (max-width: 750px) {
+        
+        width: 90vw;
+    }
 `
 const StyledP= styled.p`
     color: black;

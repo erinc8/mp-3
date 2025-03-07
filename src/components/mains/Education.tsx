@@ -8,6 +8,12 @@ const StyledMain = styled.main`
     margin: auto;
     background-color: whitesmoke;
     height: 100vh;
+    overflow-x: hidden;
+    
+    @media (max-width: 750px) {
+        
+        width: 90vw;
+    }
 `
 
 const StyledP = styled.p`

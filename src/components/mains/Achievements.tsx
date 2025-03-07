@@ -4,7 +4,7 @@ const StyledMain = styled.main`
     flex: 1;
     width: 100%;
     background-color: whitesmoke;
-    height: 100vh;
+    height: 90vh;
 `
 
 const StyledH2 = styled.h2`
@@ -14,7 +14,7 @@ const StyledH2 = styled.h2`
 
 const StyledP = styled.p`
     margin: auto;
-    padding: 5%;
+    padding: 5%; 
     font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: black;
 `

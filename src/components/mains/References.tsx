@@ -6,6 +6,10 @@ const StyledMain = styled.main`
     background-color: whitesmoke;
     height: 100vh;
     
+    @media (max-width: 750px) {
+        width: 90vw;
+    }
+    
 `
 
 const StyledTable = styled.table`

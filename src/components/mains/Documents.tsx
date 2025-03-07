@@ -5,6 +5,7 @@ import CatMath from "/cat-math.png";
 
 const StyledCalculator = styled.div`
     justify-content: center;
+    overflow-x: hidden;
 `
 
 
@@ -27,12 +28,22 @@ const StyledMain = styled.main`
     background-color: whitesmoke;
     padding: 5%;
     height: 100vh;
+    overflow-x: hidden;
+    
+    @media (max-width: 750px) {
+        
+        width: 90vw;
+    }
 `
 
 const StyledImg = styled.img`
-    width: 40%;
-    padding-top: 10%;
-    padding-left: 30%;
+    max-width: 100%; 
+    width: 40%; 
+    height: auto; 
+    margin: auto; 
+    display: block; 
+    padding: 15px;
+
 `
 const StyledButton = styled.button`
     background-color: darkslategrey;
